@@ -4,20 +4,16 @@ import threading
 import discord
 import asyncio
 import ctypes
-import requests
+
 
 ctypes.windll.kernel32.SetConsoleTitleW('Moon™')
-TOKEN = ''
+TOKEN = 'OTg1MzIyMjYyNzk2MzI4OTYx.G6aGs7.MvbyydduQnGJP-0tQPg5MErzauNFnHvwfwP9Yo'
 prefix = '/'
-
 intents = discord.Intents().all()
 bot = commands.Bot(command_prefix=prefix, case_insensitive=True, intents=intents)
 bot.remove_command('help')
 
-administrators = []
-chat_channel = '972637274086993990'
-bots_channel = '972637274086993990'
-queue = []
+
 
 def zoom():
     while True:
