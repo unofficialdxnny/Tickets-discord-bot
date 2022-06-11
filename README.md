@@ -3,9 +3,9 @@ Tickets bot made in Python for the Moon™ Discord server
 
 ### Commands
 
-/help - Display's the bots commands
-/ticket - Creates a user-specific channel
-/close - deletes the channel 
+/help - Display's the bots commands <br>
+/ticket - Creates a user-specific channel <br>
+/close - deletes the channel <br>
 
 ### Description
 
