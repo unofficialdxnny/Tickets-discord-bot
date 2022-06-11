@@ -7,7 +7,7 @@ import ctypes
 
 
 ctypes.windll.kernel32.SetConsoleTitleW('Moon™')
-TOKEN = 'OTg1MzIyMjYyNzk2MzI4OTYx.G6aGs7.MvbyydduQnGJP-0tQPg5MErzauNFnHvwfwP9Yo'
+TOKEN = ''
 prefix = '/'
 intents = discord.Intents().all()
 bot = commands.Bot(command_prefix=prefix, case_insensitive=True, intents=intents)
