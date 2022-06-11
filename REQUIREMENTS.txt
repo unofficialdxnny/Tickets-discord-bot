@@ -1,0 +1,5 @@
+subprocess
+threading
+discord
+asyncio
+ctypes
